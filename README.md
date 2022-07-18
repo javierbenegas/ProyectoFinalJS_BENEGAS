@@ -10,3 +10,4 @@ Para la pagina de financición vincule dos .js, uno que emula un buscador para i
 
 Para la pagina de contacto solo sume un alert con SweetAlert para confirmar el envío del correo y el correo se envía por medio de la API de formsubmit.# ENTREGA_FINAL_JS_BENEGAS
 # ProyectoFinal_BENEGAS
+# ProyectoFinal_BENEGAS
