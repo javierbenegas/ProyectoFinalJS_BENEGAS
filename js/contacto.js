@@ -1,10 +1,10 @@
-// let nombreContacto = document.getElementById('nameContact');
-// let apellidoContacto = document.getElementById('lastNameContact');
-// let direccionContacto = document.getElementById('addresContact');
-// let alturaContacto = document.getElementById('numContact');
-// let celContacto = document.getElementById('phoneContact');
-// let emailContacto = document.getElementById('mailContact');
-// let comentarioContacto = document.getElementById('comentContact')
+let nombreContacto = document.getElementById('nameContact');
+let apellidoContacto = document.getElementById('lastNameContact');
+let direccionContacto = document.getElementById('addresContact');
+let alturaContacto = document.getElementById('numContact');
+let celContacto = document.getElementById('phoneContact');
+let emailContacto = document.getElementById('mailContact');
+let comentarioContacto = document.getElementById('comentContact')
 
 
 //Funcionalidad para el boton de envio de información
@@ -23,9 +23,9 @@ botonContacto.addEventListener('click',()=>{
       })
 })
 
-let formulario = document.getElementById('formularioSubmit');
-formulario.addEventListener ('submit',validarFormulario);
+// let formulario = document.getElementById('formularioSubmit');
+// formulario.addEventListener ('submit',validarFormulario);
 
-function validarFormulario (e){
-    e.preventDefault();
-}
+// function validarFormulario (e){
+//     e.preventDefault();
+// }

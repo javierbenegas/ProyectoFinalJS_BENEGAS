@@ -60,40 +60,43 @@
 
     <!--Formulario de contacto-->
     <main class="form-modificado">
-      <form class="row g-3 col-lg-6 form-modificado" id="formularioSubmit">
+      <form action="https://formsubmit.co/15ed8054dd0a0019469a455638f9c455" method="POST" class="row g-3 col-lg-6 form-modificado" id="formularioSubmit" >
         <h4>Datos personales</h4>
         <div class="col-md-6">
           <label for="inputEmail4" class="form-label">Nombre</label>
-          <input type="name" class="form-control" id="nameContact" required="">
+          <input type="name" class="form-control" id="nameContact" required="" name="nombre">
         </div>
         <div class="col-md-6">
           <label for="inputPassword4" class="form-label">Apellido</label>
-          <input type="name" class="form-control" id="lastNameContact" required="">
+          <input type="name" class="form-control" id="lastNameContact" required="" name="apellido">
         </div>
         <div class="col-md-8">
           <label for="inputEmail4" class="form-label">Dirección</label>
-          <input type="name" class="form-control" id="addresContact" required="">
+          <input type="name" class="form-control" id="addresContact" required="" name="direccion">
         </div>
         <div class="col-md-4">
           <label for="inputPassword4" class="form-label">Número</label>
-          <input type="number" class="form-control" id="numContact" required="">
+          <input type="number" class="form-control" id="numContact" required="" name="altura">
         </div>
         <h4>Contacto</h4>
         <div class="col-12">
           <label for="inputAddress" class="form-label">Celular</label>
-          <input type="text" class="form-control" id="phoneContact" placeholder="+54 9 299 999 9999" required="">
+          <input type="tel" class="form-control" id="phoneContact" placeholder="+54 9 299 999 9999" required="" name="telefono">
         </div>
         <div class="col-12">
           <label for="inputAddress2" class="form-label">Correo electrónico</label>
-          <input type="email" class="form-control" id="mailContact" placeholder="example@example.com" required="">
+          <input type="email" class="form-control" id="mailContact" placeholder="example@example.com" required="" name="email">
         </div>
         <div class="mb-3">
           <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1 comentContact" rows="3" placeholder="Escriba una breve descripción de su consulta..."></textarea>
+          <textarea class="form-control" id="exampleFormControlTextarea1 comentContact" rows="3" placeholder="Escriba una breve descripción de su consulta..." name="comentarios"></textarea>
         </div>
          <div class="col-12">
-          <button type="submit" class="btn btn-primary-modificado" id="btn-contacto">Enviar</button>
+          <button type="submit" value="Enviar" class="btn btn-primary-modificado" id="btn-contacto">Enviar</button>
         </div>
+
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/pages/contacto.html">
+        <input type="hidden" name="_captcha" value="false">
       </form>
     </main>
 

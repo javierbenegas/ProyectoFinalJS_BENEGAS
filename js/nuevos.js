@@ -1,7 +1,7 @@
 const nuevos = document.querySelector('#catalogo-nuevos')
 
 fetch('/catalogo-nuevos.json')
-    .then( (resp) => resp.json())
+    .then( (response) => response.json())
     .then( (data) => {
 
         data.forEach((vehiculo) => {
