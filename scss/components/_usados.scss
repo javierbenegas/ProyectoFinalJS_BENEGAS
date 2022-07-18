@@ -1,0 +1,24 @@
+@import "../components/maps";
+
+/* AUTOS USADOS*/
+.titulo-usados{
+    background-color: map-get($estilos, color1);
+    color: map-get($estilos, color2);
+    text-align: map-get($estilos, centralizado);
+    text-shadow: 5px;
+}
+.img-portada{
+    max-width: 45%;
+    height: auto;
+}
+.centrar-img{
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 65px;
+}
+.imagen-navbar-usados{
+    padding-left: 10px;
+    height: 50px;
+    width: auto;
+    padding-right: 50px;
+}

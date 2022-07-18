@@ -1,0 +1,39 @@
+
+/*Modificacion de lista en footer*/
+.footer-modif{
+    @include colores (black, antiquewhite);
+}
+/*Modificacion de icono de footer*/
+.img-navbar-footer{
+    height: 50px;
+    width: auto;
+}   
+/*Correccion para decoración de links*/
+.link-corregido{
+    text-decoration: none;
+}
+/*Whatsapp flotante*/
+.whatsapp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: black;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+/*Animacion para Whatsapp flotante*/
+.whatsapp:hover{
+    text-decoration: none; 
+}
+/*Correccion de margenes para iconos*/
+.margen-icon{
+    margin-right: 0.8rem;
+    margin-left: 0.8rem;
+}   

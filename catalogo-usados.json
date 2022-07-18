@@ -1,0 +1,8 @@
+[
+    {"marca": "Fiat Cronos", "modelo": 2020, "km": 25000, "combustible" : "Nafta", "precio": 3500000, "imagen": "<img src='../img/Catalogo usados/fiat-cronos02.jpg' class='card-img-top' alt='Fiat Cronos'>"},
+    {"marca": "Fiat MOBI", "modelo": 2021, "km": 12000, "combustible" : "Nafta", "precio": 3200000, "imagen": "<img src='../img/Catalogo usados/fiat-mobi01.jpg' class='card-img-top' alt='Fiat MOBI'>"},
+    {"marca": "Fiat MOBI", "modelo": 2019, "km": 40000, "combustible" : "Nafta", "precio": 2900000, "imagen": "<img src='../img/Catalogo usados/fiat-mobi03.jpeg' class='card-img-top' alt='Fiat MOBI'>"},
+    {"marca": "Renault Logan", "modelo": 2018, "km": 75000, "combustible" : "Nafta", "precio": 2500000, "imagen": "<img src='../img/Catalogo usados/renault-logan01.jpg' class='card-img-top' alt='Renault Logan'>"},
+    {"marca": "Renault Sandero", "modelo": 2021, "km": 23000, "combustible" : "Nafta", "precio": 4000000, "imagen": "<img src='../img/Catalogo usados/renault-sandero01.jpg' class='card-img-top' alt='Renault Sandero'>"},
+    {"marca": "Volkswagen Golf", "modelo": 2022, "km": 1500, "combustible" : "Nafta", "precio": 4300000, "imagen": "<img src='../img/Catalogo usados/vw-golf01.jpg' class='card-img-top' alt='Volkswagen Golf'>"}
+]

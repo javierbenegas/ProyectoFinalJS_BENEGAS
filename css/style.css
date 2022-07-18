@@ -1,0 +1,320 @@
+@charset "UTF-8";
+.btn-primary-modificado, .btn-card {
+  background-color: #2e2a2a;
+  color: antiquewhite;
+  border-color: #2e2a2a;
+}
+
+/*Modificacion de icono de Navbar*/
+.imagen-navbar {
+  height: 50px;
+  width: auto;
+  padding-right: 50px;
+}
+
+/*Modificacion color de boton*/
+.btn-navbar {
+  color: white;
+  border-color: white;
+  background-color: black;
+  color: antiquewhite;
+}
+
+.navbar-modificada {
+  background-color: black;
+  color: antiquewhite;
+}
+
+/*Cambio de fondo en todo el carrusel*/
+#contenedor-carrusel {
+  background-color: black;
+}
+
+/*Modificacion de Carrusel de imagenes*/
+.carrusel-modificado {
+  margin: auto;
+  background-color: black;
+  color: antiquewhite;
+}
+
+/*Modificaciones para tarjetas*/
+.card-modificada {
+  background-color: black;
+  color: black;
+  padding: 25px 35px 35px 35px;
+}
+
+/*Cambios en boton de las cards*/
+.btn-card {
+  margin: 25px;
+}
+
+/*Modificacion de lista en footer*/
+.footer-modif {
+  background-color: black;
+  color: antiquewhite;
+}
+
+/*Modificacion de icono de footer*/
+.img-navbar-footer {
+  height: 50px;
+  width: auto;
+}
+
+/*Correccion para decoración de links*/
+.link-corregido {
+  text-decoration: none;
+}
+
+/*Whatsapp flotante*/
+.whatsapp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background: black;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+/*Animacion para Whatsapp flotante*/
+.whatsapp:hover {
+  text-decoration: none;
+}
+
+/*Correccion de margenes para iconos*/
+.margen-icon {
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
+}
+
+/*Modificaciones a formulario*/
+.form-modificado {
+  background-color: black;
+  color: antiquewhite;
+  padding: 35px 15px 35px 15px;
+}
+
+/*Boton de formulario*/
+/* AUTOS USADOS*/
+.titulo-usados {
+  background-color: black;
+  color: antiquewhite;
+  text-align: center;
+  text-shadow: 5px;
+}
+
+.img-portada {
+  max-width: 45%;
+  height: auto;
+}
+
+.centrar-img {
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 65px;
+}
+
+.imagen-navbar-usados {
+  padding-left: 10px;
+  height: 50px;
+  width: auto;
+  padding-right: 50px;
+}
+
+@font-face {
+  font-family: "AerosBoss";
+  src: url(../font/Aeros.ttf);
+}
+/*CSS para sección de filtros del catálogo*/
+.filtro-catalogo {
+  background-color: black;
+  color: antiquewhite;
+  padding-right: 55px;
+  padding-left: 0px;
+}
+
+/**/
+.list-group-modificado {
+  background-color: black;
+  color: antiquewhite;
+  position: relative;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/*CSS para borde izquierdo en seccion fotos de catalogo*/
+.borde-catalogo {
+  border-left: 2px solid antiquewhite;
+}
+
+/*CSS para formato de los links de las fotos*/
+.link-prop {
+  display: block;
+  color: antiquewhite;
+}
+
+/*CSS para menu hamburguesa en sección FILTROS*/
+.filtro-input:checked + .lista-menu {
+  background-color: black;
+  color: antiquewhite;
+}
+
+.filtro-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.lista-menu {
+  display: grid;
+  grid-auto-flow: row;
+  gap: 7px;
+}
+
+.filtro-item {
+  color: antiquewhite;
+  text-decoration: none;
+  --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+
+.filtro-item::after {
+  transition: clip-path 0.8s;
+}
+
+.filtro-item:hover {
+  color: antiquewhite;
+  --clippy:polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  transform: scale(1.05);
+}
+
+.filtro-label, .filtro-input {
+  display: none;
+}
+
+.dropdown-modificado {
+  display: none;
+}
+
+.carrusel-responsive {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  /*Media para menu hamburguesa del filtro de catálogo*/
+  .lista-menu {
+    position: sticky;
+    background-color: black;
+    width: 100%;
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: left;
+    clip-path: circle(0 at center);
+  }
+
+  .filtro-input:checked + .lista-menu {
+    clip-path: circle(100% at center);
+  }
+
+  .borde-catalogo {
+    border-left: 0 solid antiquewhite;
+  }
+
+  .card-modificada {
+    background-color: black;
+    color: black;
+    padding: 15px 8px 8px 20px;
+  }
+
+  .btn-card {
+    margin: 10px 50px;
+  }
+
+  .card-body {
+    padding: 1rem 1rem 0 1rem;
+  }
+
+  /*Modificación de menu desplegable para filtro de catálogo*/
+  .dropdown-modificado {
+    display: block;
+    padding: 15px 25px;
+    background-color: black;
+  }
+
+  .filtro-catalogo {
+    display: none;
+  }
+
+  .btn-secondary-modificado {
+    color: antiquewhite;
+    background-color: #2e2a2a;
+    border-color: #2e2a2a;
+  }
+
+  .btn-check:focus + .btn-secondary-modificado, .btn-secondary:focus {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+    box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+  }
+
+  .dropdown-menu-dark-modificado {
+    color: antiquewhite;
+    background-color: black;
+    border-color: rgba(0, 0, 0, 0.15);
+  }
+
+  .dropdown-item-modificado {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: antiquewhite;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+  }
+
+  .btn:hover {
+    color: antiquewhite;
+  }
+
+  .navbar-nav .nav-link {
+    padding-left: 15px;
+  }
+
+  .dropdown-menu {
+    background-color: black;
+    color: antiquewhite;
+  }
+
+  .dropdown-item {
+    background-color: black;
+    color: antiquewhite;
+  }
+
+  .carrusel-original {
+    display: none;
+  }
+
+  .carrusel-responsive {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,8 @@
+[
+    {"marca": "Fiat Cronos", "modelo": 2022, "km": 0, "combustible" : "Nafta", "precio": 5000000, "imagen": "<img src='../img/Catalogo 0km/fiat-cronos.jpg' class='card-img-top' alt='Fiat Cronos'>"},
+    {"marca": "Fiat MOBI", "modelo": 2022, "km": 0, "combustible" : "Nafta", "precio": 5000000, "imagen": "<img src='../img/Catalogo 0km/fiat-cronos03.jpg' class='card-img-top' alt='Fiat Cronos'>"},
+    {"marca": "Fiat MOBI", "modelo": 2022, "km": 0, "combustible" : "Nafta", "precio": 4300000, "imagen": "<img src='../img/Catalogo 0km/fiat-mobi02.jpg' class='card-img-top' alt='Fiat MOBI'>"},
+    {"marca": "Renault Kwid", "modelo": 2022, "km": 0, "combustible" : "Nafta", "precio": 3900000, "imagen": "<img src='../img/Catalogo 0km/renault-kwid01.jpg' class='card-img-top' alt='Renault Kwid'>"},
+    {"marca": "Renault Logan", "modelo": 2022, "km": 0, "combustible" : "Nafta", "precio": 4250000, "imagen": "<img src='../img/Catalogo 0km/renault-logan02.jpg' class='card-img-top' alt='Renault Logan'>"},
+    {"marca": "Volkswagen Gol", "modelo": 2022, "km": 0, "combustible" : "Nafta", "precio": 4450000, "imagen": "<img src='../img/Catalogo 0km/vw-gol01.jpg' class='card-img-top' alt='Volkswagen Gol'>"}
+]

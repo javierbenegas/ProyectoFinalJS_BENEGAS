@@ -1,0 +1,171 @@
+@import "./base/mixin";
+@import "./base/extends";
+@import "./base/colores";
+
+@import "./components/header";
+@import "./components/main";
+@import "./components/footer";
+@import "./components/formulario";
+@import "./components/usados";
+@import "./components/maps";
+
+@font-face {
+    font-family: 'AerosBoss';
+    src: url(../font/Aeros.ttf)
+}
+
+
+/*CSS para sección de filtros del catálogo*/
+.filtro-catalogo{
+    @include colores (black, antiquewhite);
+    padding-right: 55px;
+    padding-left: 0px;
+}
+/**/
+.list-group-modificado{
+    @include colores (black, antiquewhite);
+    position: relative;
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: 1px solid rgba(0,0,0,.125);
+}
+/*CSS para borde izquierdo en seccion fotos de catalogo*/
+.borde-catalogo{
+    border-left: 2px solid antiquewhite;
+}
+/*CSS para formato de los links de las fotos*/
+.link-prop{
+    display: block;
+    color: antiquewhite;
+}
+/*CSS para menu hamburguesa en sección FILTROS*/
+.filtro-input:checked + .lista-menu {
+    @include colores (black, antiquewhite);
+}
+.filtro-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.lista-menu{
+    display: grid;
+    grid-auto-flow: row;
+    gap: 7px;
+}
+
+.filtro-item{
+    color: antiquewhite;
+    text-decoration: none;
+    --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+
+}
+.filtro-item::after{
+    transition: clip-path .8s;    
+}
+.filtro-item:hover{
+    color: antiquewhite;
+    --clippy:polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    transform: scale(1.05);
+}
+.filtro-label, .filtro-input {
+    display: none;
+}
+.dropdown-modificado{
+    display: none;
+}
+.carrusel-responsive{
+    display: none;
+}
+
+@media (max-width: 991px){
+    /*Media para menu hamburguesa del filtro de catálogo*/
+    .lista-menu{
+        position:sticky;
+        background-color: black;
+        width: 100%;
+        margin-left: 25px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: left;
+        clip-path: circle(0 at center);
+    }
+    .filtro-input:checked + .lista-menu{
+        clip-path: circle(100% at center);
+    }
+    .borde-catalogo{
+        border-left: 0 solid antiquewhite;
+    }
+    .card-modificada{
+        @include colores (black, black);
+        padding: 15px 8px 8px 20px;
+    }
+    .btn-card {
+        margin: 10px 50px;
+    }
+    .card-body {
+        padding: 1rem 1rem 0 1rem;
+    }
+    /*Modificación de menu desplegable para filtro de catálogo*/
+    .dropdown-modificado{
+        display: block;
+        padding: 15px 25px;
+        background-color: black;
+      
+    }
+    .filtro-catalogo{
+        display: none;
+    }
+    .btn-secondary-modificado{
+        color: antiquewhite;
+        background-color: #2e2a2a;
+        border-color: #2e2a2a;
+    }
+    .btn-check:focus+.btn-secondary-modificado, .btn-secondary:focus {
+        color: #fff;
+        background-color: black;
+        border-color: black;
+        box-shadow: 0 0 0 0.25rem rgb(130 138 145 / 50%);
+    }
+    .dropdown-menu-dark-modificado {
+        color: antiquewhite;
+        background-color: black;
+        border-color: rgba(0,0,0,.15);
+    }
+    .dropdown-item-modificado {
+        display: block;
+        width: 100%;
+        padding: 0.25rem 1rem;
+        clear: both;
+        font-weight: 400;
+        color: antiquewhite;
+        text-align: inherit;
+        text-decoration: none;
+        white-space: nowrap;
+        background-color: transparent;
+        border: 0;
+    }
+    .btn:hover{
+        color: antiquewhite;
+    }
+    .navbar-nav .nav-link {
+        padding-left: 15px;
+    }
+    .dropdown-menu{
+        @include colores (black, antiquewhite);
+    }
+    .dropdown-item{
+        @include colores (black, antiquewhite);
+    }
+    .carrusel-original{
+        display: none;
+    }
+    .carrusel-responsive{
+        display: block;
+    }
+    
+}

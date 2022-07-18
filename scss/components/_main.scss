@@ -1,0 +1,21 @@
+/*Cambio de fondo en todo el carrusel*/
+#contenedor-carrusel{
+    background-color: black;
+}
+/*Modificacion de Carrusel de imagenes*/
+.carrusel-modificado {
+    margin: auto;;
+    @include colores (black, antiquewhite);
+}
+
+/*Modificaciones para tarjetas*/
+.card-modificada{
+    @include colores (black, black);
+    padding: 25px 35px 35px 35px;
+}
+
+/*Cambios en boton de las cards*/
+.btn-card{
+    @extend %btn;
+    margin: 25px;
+}

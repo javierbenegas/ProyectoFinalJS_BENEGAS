@@ -1,0 +1,15 @@
+/*Modificacion de icono de Navbar*/
+.imagen-navbar{
+    height: 50px;
+    width: auto;
+    padding-right: 50px;
+}
+/*Modificacion color de boton*/
+.btn-navbar{
+    color: white;
+    border-color: white;
+    @include colores (black, antiquewhite);
+}
+.navbar-modificada{
+    @include colores (black, antiquewhite);
+}

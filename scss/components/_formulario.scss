@@ -1,0 +1,9 @@
+/*Modificaciones a formulario*/
+.form-modificado{
+    @include colores (black, antiquewhite);
+    padding: 35px 15px 35px 15px;
+}
+/*Boton de formulario*/
+.btn-primary-modificado{
+    @extend %btn;
+}
