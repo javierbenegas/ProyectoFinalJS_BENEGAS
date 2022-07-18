@@ -9,3 +9,4 @@ Para las paginas de los catalogos cree dos archivos .json (uno para 0 km y otro 
 Para la pagina de financición vincule dos .js, uno que emula un buscador para identificar el precio del vehículo que se desea financiar y otro .js para realizar el calculo de la financiacion, arrojando el resultado con un alert modificado por la libreria SweetAlert.
 
 Para la pagina de contacto solo sume un alert con SweetAlert para confirmar el envío del correo y el correo se envía por medio de la API de formsubmit.# ENTREGA_FINAL_JS_BENEGAS
+# ProyectoFinal_BENEGAS
