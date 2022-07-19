@@ -6,3 +6,4 @@
     {"marca": "Renault Logan", "modelo": 2022, "km": 0, "combustible" : "Nafta", "precio": 4250000, "imagen": "<img src='../img/Catalogo 0km/renault-logan02.jpg' class='card-img-top' alt='Renault Logan'>"},
     {"marca": "Volkswagen Gol", "modelo": 2022, "km": 0, "combustible" : "Nafta", "precio": 4450000, "imagen": "<img src='../img/Catalogo 0km/vw-gol01.jpg' class='card-img-top' alt='Volkswagen Gol'>"}
 ]
+

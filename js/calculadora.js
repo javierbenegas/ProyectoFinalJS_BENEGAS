@@ -1,4 +1,3 @@
-
     let precioVehiculo = document.getElementById('precioVehiculo');
     let precioEntrega = document.getElementById('precioEntrega');
     let cuotas = document.getElementById('cuotas');

@@ -25,3 +25,4 @@ fetch('/catalogo-nuevos.json')
          nuevos.append(div)
         })
     })
+

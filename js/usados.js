@@ -25,3 +25,6 @@ fetch('/catalogo-usados.json')
          usados.append(div)
         })
     })
+
+
+    

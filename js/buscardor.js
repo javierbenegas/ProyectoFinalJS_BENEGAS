@@ -14,7 +14,7 @@ const vehiculos = [
     {marca: 'Volkswagen Golf', "precio": 4300000},
 ]
 
-//Variables para ejecutar el buscardor
+//Variables para ejecutar el buscardor  
 const formulario = document.querySelector('#formulario');
 const boton = document.querySelector('#botonBuscar');
 const resultado = document.querySelector('#resultado');

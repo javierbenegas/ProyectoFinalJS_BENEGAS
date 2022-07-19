@@ -6,3 +6,5 @@
     {"marca": "Renault Sandero", "modelo": 2021, "km": 23000, "combustible" : "Nafta", "precio": 4000000, "imagen": "<img src='../img/Catalogo usados/renault-sandero01.jpg' class='card-img-top' alt='Renault Sandero'>"},
     {"marca": "Volkswagen Golf", "modelo": 2022, "km": 1500, "combustible" : "Nafta", "precio": 4300000, "imagen": "<img src='../img/Catalogo usados/vw-golf01.jpg' class='card-img-top' alt='Volkswagen Golf'>"}
 ]
+
+

@@ -6,7 +6,6 @@ let celContacto = document.getElementById('phoneContact');
 let emailContacto = document.getElementById('mailContact');
 let comentarioContacto = document.getElementById('comentContact')
 
-
 //Funcionalidad para el boton de envio de información
 
 let botonContacto = document.getElementById("btn-contacto")
